@@ -12,13 +12,13 @@
 
 ## Recall the basic steps in creating a RAG system
 
- - 📚 Create an Index
+- 📚 Create an Index
 
- - 🔎 Retrieval of relevant context from our Index that is similar to our query
+- 🔎 Retrieval of relevant context from our Index that is similar to our query
 
- - 🤖 Generate responses based on the retrieved context by injecting the retrieved context into a prompt and sending that to an LLM
+- 🤖 Generate responses based on the retrieved context by injecting the retrieved context into a prompt and sending that to an LLM
 
-<img src="../image_assets/rag_system_diagram.png" width="70%">
+<img src="./assets/rag_system_diagram.png" width="70%">
 
 Diagram illustrating the components of a RAG system, including the retriever and generator processes.
 
@@ -28,9 +28,9 @@ Source: [AI Makerspace](https://youtu.be/Anr1br0lLz8)
 
 Those components are:
 
-1) Retrieval
+1. Retrieval
 
-2) Generation
+2. Generation
 
 ### Retrieval
 
@@ -42,9 +42,9 @@ The retrieval component fetches relevant information from external knowledge sou
 
 **Retrieval component challenges:**
 
- - Evaluating effectiveness in filtering and selecting pertinent information
+- Evaluating effectiveness in filtering and selecting pertinent information
 
- - Assessing the relevance and usefulness of retrieved data
+- Assessing the relevance and usefulness of retrieved data
 
 ### Generation
 
@@ -52,9 +52,9 @@ The generation component takes the retrieved context passages and the original q
 
 **Generation component challenges:**
 
- - Ensuring LLM utilizes retrieved context passages effectively
+- Ensuring LLM utilizes retrieved context passages effectively
 
- - Assessing factual correctness, relevance, and coherence
+- Assessing factual correctness, relevance, and coherence
 
 ## How to evaluate these components
 
